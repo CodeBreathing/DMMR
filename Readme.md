@@ -1,5 +1,6 @@
 # DMMR
 This is the official PyTorch implementation for our AAAI'24 paper DMMR: Cross-Subject Domain Generalization for EEG-Based Emotion Recognition via Denoising Mixed Mutual Reconstruction
+
 The full code will be made public upon the publication of the paper.
 
 ## Datasets
