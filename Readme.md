@@ -20,15 +20,15 @@ Run `python main.py`, and The results will be recorded in TensorBoard.
 The argument for the `dataset_name` is set to be `seed3` for the SEED dataset, and `seed4` for the SEED-IV dataset, respectively.
 
 ## Ablation Studies
-Run `python ablation/witoutMix.py`
-Run `python ablation/withoutNoise.py`
-Run `python ablation/withoutBothMixAndNoise.py`
+Run `python ablation/witoutMix.py`  
+Run `python ablation/withoutNoise.py`  
+Run `python ablation/withoutBothMixAndNoise.py`  
 
 ## other noise injection methods
-Run `python noiseInjectionMethods/maskChannels.py`
-Run `python noiseInjectionMethods/maskTimeSteps.py`
-Run `python noiseInjectionMethods/channelsShuffling.py`
-Run `python noiseInjectionMethods/Dropout.py`
+Run `python noiseInjectionMethods/maskChannels.py`  
+Run `python noiseInjectionMethods/maskTimeSteps.py`  
+Run `python noiseInjectionMethods/channelsShuffling.py`  
+Run `python noiseInjectionMethods/Dropout.py`  
 
 ## Plot with TSNE
 Run `python T-SNE/generatePlotByTSNE.py`
