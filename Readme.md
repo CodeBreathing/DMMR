@@ -1,7 +1,6 @@
 # DMMR
-This is the official PyTorch implementation for our AAAI'24 paper DMMR: Cross-Subject Domain Generalization for EEG-Based Emotion Recognition via Denoising Mixed Mutual Reconstruction
-
-The full code will be made public upon the publication of the paper.
+This is the official PyTorch implementation for our AAAI'24 paper DMMR: Cross-Subject Domain Generalization for EEG-Based Emotion Recognition via Denoising Mixed Mutual Reconstruction  
+[Paper link:](https://ojs.aaai.org/index.php/AAAI/article/view/27819)
 
 ## Datasets
 The public available datasets (SEED and SEED-IV) can be downloaded from the https://bcmi.sjtu.edu.cn/home/seed/index.html
@@ -31,5 +30,20 @@ Run `python noiseInjectionMethods/channelsShuffling.py`
 Run `python noiseInjectionMethods/Dropout.py`  
 
 ## Plot with TSNE
-Run `python T-SNE/generatePlotByTSNE.py`
+Run `python T-SNE/generatePlotByTSNE.py`  
 
+## Citation
+If you found our work useful for your research, please cite our work:
+```
+@inproceedings{wang2024dmmr,
+  title={DMMR: Cross-Subject Domain Generalization for EEG-Based Emotion Recognition via Denoising Mixed Mutual Reconstruction},
+  author={Wang, Yiming and Zhang, Bin and Tang, Yujiao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={1},
+  pages={628--636},
+  year={2024}
+}
+```
+We thank the following repo providing helpful functions in our work. 
+[MS-MDA](https://github.com/VoiceBeer/MS-MDA)
