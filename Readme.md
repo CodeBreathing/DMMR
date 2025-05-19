@@ -45,5 +45,8 @@ If you found our work useful for your research, please cite our work:
   year={2024}
 }
 ```
-We thank the following repo providing helpful functions in our work. 
-We thank the authors of [MS-MDA](https://github.com/VoiceBeer/MS-MDA) and [DANN](https://github.com/fungtion/DANN) for providing helpful functions used in this work.
+We thank the following repo providing helpful functions in our work.  
+[MS-MDA](https://github.com/VoiceBeer/MS-MDA)  
+[DANN](https://github.com/fungtion/DANN) 
+
+
